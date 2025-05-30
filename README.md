@@ -1,8 +1,50 @@
-# MMSI-Bench<img src="assets/logo_mmsi.png" width="40" />
-This repo contains evaluation code for the paper **MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence**.
+<div align="center">
 
-[**🌐 Homepage**](https://runsenxu.com/projects/MMSI_Bench/) | [**🤗 Dataset**](https://huggingface.co/datasets/RunsenXu/MMSI-Bench) | [**📑 Paper**](https://arxiv.org/pdf/2505.23764)  | [**📖 arXiv**](https://arxiv.org/abs/2505.23764) | 
+# MMSI-Bench <img src="assets/logo_mmsi.png" width="40" />
 
+</div>
+
+<p align="center">
+  <!-- <b>Authors</b><br> -->
+  <a href="https://github.com/sihany077" target="_blank">Sihan Yang<sup>1*</sup></a>,
+  <a href="https://runsenxu.com" target="_blank">Runsen Xu<sup>1,2*‡</sup></a>,
+  <a href="https://github.com/kuaikuaixym" target="_blank">Yiman Xie<sup>1,3</sup></a>,
+  <a href="https://yangsizhe.github.io/" target="_blank">Sizhe Yang<sup>1,2</sup></a>,
+  <a href="https://github.com/Mor-Li" target="_blank">Mo Li<sup>1,4</sup></a>,
+  <a href="https://mail.sjtu.edu.cn/zimbra/mail#1" target="_blank">Jingli Lin<sup>1,5</sup></a>,
+  <a href="https://github.com/ZCMax" target="_blank">Chenming Zhu<sup>1,6</sup></a>,
+  <a href="https://xiaochenchen.com/" target="_blank">Xiaochen Chen<sup>7</sup></a>,
+  <a href="https://kennymckormick.github.io/" target="_blank">Haodong Duan<sup>1</sup></a>,
+  <a href="https://openreview.net/profile?id=~Xiangyu_Yue1" target="_blank">Xiangyu Yue<sup>1,2</sup></a>,
+  <a href="http://dahua.site/" target="_blank">Dahua Lin<sup>1,2</sup></a>,
+  <a href="https://tai-wang.github.io/" target="_blank">Tai Wang<sup>1†</sup></a>,
+  <a href="https://oceanpang.github.io/" target="_blank">Jiangmiao Pang<sup>1†</sup></a>
+</p>
+
+<p align="center">
+  <sup>1</sup>Shanghai AI Laboratory,
+  <sup>2</sup>The Chinese University of Hong Kong,
+  <sup>3</sup>Zhejiang University,
+  <sup>4</sup>Tsinghua University,
+  <sup>5</sup>Shanghai Jiaotong University,
+  <sup>6</sup>University of Hong Kong,
+  <sup>7</sup>Beijing Normal University
+</p>
+
+<p align="center">
+  <sup>*</sup>Equal Contribution &nbsp;&nbsp;
+  <sup>‡</sup>Project Lead &nbsp;&nbsp;
+  <sup>†</sup>Corresponding Author
+</p>
+
+
+<!-- [**🌐 Homepage**](https://runsenxu.com/projects/MMSI_Bench/) | [**🤗 Dataset**](https://huggingface.co/datasets/RunsenXu/MMSI-Bench) | [**📑 Paper**](https://arxiv.org/pdf/2505.23764)  | [**📖 arXiv**](https://arxiv.org/abs/2505.23764)   -->
+<p align="center">
+  <a href="https://runsenxu.com/projects/MMSI_Bench/">🌐 Homepage</a> |
+  <a href="https://huggingface.co/datasets/RunsenXu/MMSI-Bench">🤗 Dataset</a> |
+  <a href="https://arxiv.org/pdf/2505.23764">📑 Paper</a>  |
+  <a href="https://arxiv.org/abs/2505.23764">📖 arXiv</a>
+</p>
 
 
 ## 🔔News
