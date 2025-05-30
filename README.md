@@ -1,14 +1,14 @@
 # MMSI-Bench<img src="assets/logo_mmsi.png" width="40" />
 This repo contains evaluation code for the paper "[MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence]" 
 
-[**🌐 Homepage**](https://runsenxu.com/projects/MMSI_Bench/) | [**🤗 Dataset**](https://huggingface.co/datasets/RunsenXu/MMSI-Bench) | [**📑 Paper**]  | [**📖 arXiv**] | 
+[**🌐 Homepage**](https://runsenxu.com/projects/MMSI_Bench/) | [**🤗 Dataset**](https://huggingface.co/datasets/RunsenXu/MMSI-Bench) | [**📑 Paper**](https://arxiv.org/pdf/2505.23764)  | [**📖 arXiv**](https://arxiv.org/abs/2505.23764) | 
 
 
 
 ## 🔔News
   <!-- **🔥[2025-05-31]: MMSI-Bench has been supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository.** -->
 
- **🔥[2025-05-30]: We released the ArXiv paper.**
+🔥[2025-05-30]: We released our paper, benchmark, and evaluation codes.
 
 
 
@@ -87,6 +87,31 @@ python run.py --model Qwen2.5-VL-7B-Instruct --data MMSI_Bench
 | Blind GPT-4o                 | 22.7     | Baseline     |
 
 
+## 🔗 Citation
+
+If you find our work and this codebase helpful, please consider starring this repo 🌟 and cite:
+
+```bibtex
+@article{yang2025mmsi,
+  title={MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence},
+  author={Yang, Sihan and Xu, Runsen and Xie, Yiman and Yang, Sizhe and Li, Mo and Lin, Jingli and Zhu, Chenming and Chen, Xiaochen and Duan, Haodong and Yue, Xiangyu and Lin, Dahua and Wang, Tai and Pang, Jiangmiao},
+  journal={arXiv preprint arXiv:2505.23764},
+  year={2025}
+}
+```
+
+## 📄 License
+
+Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
 ## Acknowledgment
 MMSI-Bench makes use of data from existing image datasets: [ScanNet](http://www.scan-net.org/), [nuScenes](https://www.nuscenes.org/), [Matterport3D](https://niessner.github.io/Matterport/), [Ego4D](https://ego4d-data.org/), [AgiBot-World](https://agibot-world.cn/), [DTU](https://roboimagedata.compute.dtu.dk/?page_id=36), [DAVIS-2017](https://davischallenge.org/) ,and [Waymo](https://waymo.com/open/). We thank these teams for their open-source contributions.
@@ -94,10 +119,3 @@ MMSI-Bench makes use of data from existing image datasets: [ScanNet](http://www.
 ## Contact
 - Sihan Yang: sihany077@gmail.com
 - Runsen Xu:  runsxu@gmail.com
-
-<!-- ## Citation
-
-**BibTeX:**
-```bibtex
-
-``` -->
