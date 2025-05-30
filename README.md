@@ -1,5 +1,5 @@
 # MMSI-Bench<img src="assets/logo_mmsi.png" width="40" />
-This repo contains evaluation code for the paper "[MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence]" 
+This repo contains evaluation code for the paper **MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence**.
 
 [**🌐 Homepage**](https://runsenxu.com/projects/MMSI_Bench/) | [**🤗 Dataset**](https://huggingface.co/datasets/RunsenXu/MMSI-Bench) | [**📑 Paper**](https://arxiv.org/pdf/2505.23764)  | [**📖 arXiv**](https://arxiv.org/abs/2505.23764) | 
 
