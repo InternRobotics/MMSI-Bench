@@ -19,10 +19,6 @@ Spatial intelligence is essential for multimodal large language models (MLLMs) o
 
 MMSI-Bench systematically categorizes multi-image spatial reasoning tasks into ten basic types and one multi-step reasoning category, covering three fundamental spatial elements: camera (the agent), object (entities in the environment), and region (semantic areas like rooms). The six positional relationship categories include camera-camera, camera-object, camera-region, object-object, object-region, and region-region. In addition, there are two types of attribute reasoning (measurement and appearance), two types of motion reasoning (camera motion and object motion), and a multi-step reasoning category for more complex tasks. Each question requires information from multiple images, aiming to comprehensively evaluate a model’s ability to understand and reason about spatial relationships, attributes, and movements across images.
 
-<div style="text-align:center;">
-  <img src="assets/category_pie.jpg" width="450" />
-</div>
-
 ## Example
 ![Alt text](assets/example_11.jpg)
 
