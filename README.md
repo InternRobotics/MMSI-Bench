@@ -68,7 +68,7 @@ MMSI-Bench systematically categorizes multi-image spatial reasoning tasks into t
 ```
 from datasets import load_dataset
 
-mmsi_bench = load_dataset("RunsenXu/MMSI-Bench")
+dataset = load_dataset("RunsenXu/MMSI-Bench")
 print(dataset)
 ```
 
