@@ -76,7 +76,7 @@ print(dataset)
 ## Quick Start
 Please refer to the [evaluation guidelines](https://github.com/open-compass/VLMEvalKit/blob/main/docs/en/Quickstart.md) of [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)
 
-### Installation.
+### Installation
 ```
 git clone https://github.com/OpenRobotLab/MMSI-Bench.git
 cd MMSI-Bench
