@@ -73,9 +73,17 @@ print(dataset)
 ```
 
 
-## Evaluation
+## Quick Start
 Please refer to the [evaluation guidelines](https://github.com/open-compass/VLMEvalKit/blob/main/docs/en/Quickstart.md) of [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)
 
+### Installation.
+```
+git clone https://github.com/OpenRobotLab/MMSI-Bench.git
+cd MMSI-Bench
+pip install -e .
+```
+
+### Run Evaluation
 ```
 # api model
 python run.py --model Seed1.5-VL --data MMSI_Bench
@@ -83,7 +91,22 @@ python run.py --model Seed1.5-VL --data MMSI_Bench
 # huggingface model
 python run.py --model Qwen2.5-VL-7B-Instruct --data MMSI_Bench
 ```
-<!-- <img src="assets/radar_v1.png" width="400" /> -->
+
+### Supporting Custom Models
+
+When you need to evaluate a model that is not supported by VLMEvalKit, you should refer to the existing inference scripts in `vlmeval/vlm` to implement the inference script for your model. It is mandatory to implement support for the `generate_inner` API.
+
+All existing models are implemented in `vlmeval/vlm`. For a minimal implementation, your model class must include the method `generate_inner(msgs, dataset=None)`. In this function, you will feed a multi-modal message (`msgs`) to your Vision Language Model (VLM) and return the model's prediction as a string.
+
+The optional `dataset` argument can be used as a flag for the model to switch between different inference strategies based on the dataset being evaluated.
+
+The `msgs` argument is a list of dictionaries, where each dictionary has two keys: `type` and `value`.
+
+*   `type`: We currently support two types: `"image"` and `"text"`.
+*   `value`:
+    *   When `type` is `'text'`, the value is the text message (a single string).
+    *   When `type` is `'image'`, the value can be the local path to an image file or a URL pointing to an image.
+    
 
 ## 🏆 MMSI-Bench Leaderboard
 
