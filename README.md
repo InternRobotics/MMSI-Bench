@@ -48,7 +48,7 @@
 
 
 ## 🔔News
-  <!-- **🔥[2025-05-31]: MMSI-Bench has been supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository.** -->
+🔥[2025-06-9]: MMSI-Bench has been supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository.
 
 🔥[2025-05-30]: We released our paper, benchmark, and evaluation codes.
 
