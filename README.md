@@ -71,6 +71,7 @@ There are several concurrent works on building spatial intelligence benchmarks f
 
 ## Example
 MMSI-Bench is structured around three fundamental spatial elements: camera (the agent), object (entities in the environment), and region (semantic areas such as rooms). Building on these, it covers six types of positional relationships (camera-camera, camera-object, camera-region, object-object, object-region, and region-region), two types of attribute reasoning (measurement and appearance), two types of motion reasoning (camera motion and object motion), and a multi-step reasoning category, for a total of eleven task types.
+
 ![Alt text](assets/example_11.jpg)
 
 ## Load Dataset
