@@ -62,12 +62,12 @@ We introduce MMSI-Bench, a VQA benchmark dedicated to multi-image spatial intell
 ![Alt text](assets/teaser.jpg)
 
 ## Why MMSI-Bench?
-There are several concurrent works on building spatial intelligence benchmarks for MLLMs. Our MMSI-Bench possesses the following unique features:
-*1. Multi-image.* We target multi-image spatial reasoning: each of the ten fundamental tasks involves two images, while the multi-step reasoning tasks use more.
-*2. High quality.* Every question is fully human-designed—selecting images, crafting questions, carefully designing distractors, and annotating step-by-step reasoning processes.
-*3. Aligned with real-world scenarios.* All images depict real-world scenes from domains such as autonomous driving, robotic manipulation, and scene scanning, and every question demands real-world scene understanding and reasoning. We do not use any synthetic data.
-*4. Comprehensive and challenging.* We benchmark 34 MLLMs—nearly all leading proprietary and open-source models—and observe a large gap between model and human performance. Most open-source models perform at roughly random-choice level. To the best of our knowledge, our benchmark shows the largest reported model-human gap.
-*5. Reasoning processes.* Each sample is annotated with a step-by-step reasoning trace that justifies the correct answer and helps diagnose model errors.
+There are several concurrent works on building spatial intelligence benchmarks for MLLMs. Our MMSI-Bench possesses the following unique features:<br>
+**1. Multi-image.** We target multi-image spatial reasoning: each of the ten fundamental tasks involves two images, while the multi-step reasoning tasks use more.<br>
+**2. High quality.** Every question is fully human-designed—selecting images, crafting questions, carefully designing distractors, and annotating step-by-step reasoning processes.<br>
+**3. Aligned with real-world scenarios.** All images depict real-world scenes from domains such as autonomous driving, robotic manipulation, and scene scanning, and every question demands real-world scene understanding and reasoning. We do not use any synthetic data.<br>
+**4. Comprehensive and challenging.** We benchmark 34 MLLMs—nearly all leading proprietary and open-source models—and observe a large gap between model and human performance. Most open-source models perform at roughly random-choice level. To the best of our knowledge, our benchmark shows the largest reported model-human gap.<br>
+**5. Reasoning processes.** Each sample is annotated with a step-by-step reasoning trace that justifies the correct answer and helps diagnose model errors.
 
 ## Example
 MMSI-Bench is structured around three fundamental spatial elements: camera (the agent), object (entities in the environment), and region (semantic areas such as rooms). Building on these, it covers six types of positional relationships (camera-camera, camera-object, camera-region, object-object, object-region, and region-region), two types of attribute reasoning (measurement and appearance), two types of motion reasoning (camera motion and object motion), and a multi-step reasoning category, for a total of eleven task types.
