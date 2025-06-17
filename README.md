@@ -48,6 +48,8 @@
 
 
 ## 🔔News
+✨[2025-06-11]: MMSI-Bench was used for evaluation in the experiments of [VILASR](https://arxiv.org/abs/2506.09965).
+
 🔥[2025-06-9]: MMSI-Bench has been supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository.
 
 🔥[2025-05-30]: We released our paper, benchmark, and evaluation codes.
@@ -55,12 +57,20 @@
 
 
 ## Introduction
-Spatial intelligence is essential for MLLMs operating in the physical world. We introduce MMSI-Bench, a VQA benchmark dedicated to multi-image spatial intelligence. Six 3D-vision researchers spent more than 300 hours crafting 1,000 challenging, unambiguous multiple-choice questions, each paired with a step-by-step reasoning process. We conduct extensive experiments and evaluate 34 MLLMs, observing a wide gap: the strongest open-source model attains roughly 30% accuracy and OpenAI’s o3 reasoning model reaches 40%, while humans score 97%. These results underscore the challenging nature of MMSI-Bench and the substantial headroom for future research.
+We introduce MMSI-Bench, a VQA benchmark dedicated to multi-image spatial intelligence. Six 3D-vision researchers spent more than 300 hours crafting 1,000 challenging, unambiguous multiple-choice questions, each paired with a step-by-step reasoning process. We conduct extensive experiments and evaluate 34 MLLMs, observing a wide gap: the strongest open-source model attains roughly 30% accuracy and OpenAI’s o3 reasoning model reaches 40%, while humans score 97%. These results underscore the challenging nature of MMSI-Bench and the substantial headroom for future research.
 
 ![Alt text](assets/teaser.jpg)
 
-MMSI-Bench systematically categorizes multi-image spatial reasoning tasks into ten basic types and one multi-step reasoning category, covering three fundamental spatial elements: camera (the agent), object (entities in the environment), and region (semantic areas like rooms). The six positional relationship categories include camera-camera, camera-object, camera-region, object-object, object-region, and region-region. In addition, there are two types of attribute reasoning (measurement and appearance), two types of motion reasoning (camera motion and object motion), and a multi-step reasoning category for more complex tasks. 
+## Why MMSI-Bench?
+There are several concurrent works on building spatial intelligence benchmarks for MLLMs. Our MMSI-Bench possesses the following unique features:
+*1. Multi-image.* We target multi-image spatial reasoning: each of the ten fundamental tasks involves two images, while the multi-step reasoning tasks use more.
+*2. High quality.* Every question is fully human-designed—selecting images, crafting questions, carefully designing distractors, and annotating step-by-step reasoning processes.
+*3. Aligned with real-world scenarios.* All images depict real-world scenes from domains such as autonomous driving, robotic manipulation, and scene scanning, and every question demands real-world scene understanding and reasoning. We do not use any synthetic data.
+*4. Comprehensive and challenging.* We benchmark 34 MLLMs—nearly all leading proprietary and open-source models—and observe a large gap between model and human performance. Most open-source models perform at roughly random-choice level. To the best of our knowledge, our benchmark shows the largest reported model-human gap.
+*5. Reasoning processes.* Each sample is annotated with a step-by-step reasoning trace that justifies the correct answer and helps diagnose model errors.
+
 ## Example
+MMSI-Bench is structured around three fundamental spatial elements: camera (the agent), object (entities in the environment), and region (semantic areas such as rooms). Building on these, it covers six types of positional relationships (camera-camera, camera-object, camera-region, object-object, object-region, and region-region), two types of attribute reasoning (measurement and appearance), two types of motion reasoning (camera motion and object motion), and a multi-step reasoning category, for a total of eleven task types.
 ![Alt text](assets/example_11.jpg)
 
 ## Load Dataset
