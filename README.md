@@ -80,6 +80,41 @@ from datasets import load_dataset
 
 dataset = load_dataset("RunsenXu/MMSI-Bench")
 print(dataset)
+
+# After downloading the parquet file, read each record, decode images from binary, and save them as JPG files.
+import pandas as pd
+import os
+
+df = pd.read_parquet('MMSI_Bench.parquet')
+
+output_dir = './images'
+os.makedirs(output_dir, exist_ok=True)
+
+for idx, row in df.iterrows():
+    id_val = row['id']
+    images = row['images']  
+    question_type = row['question_type']
+    question = row['question']
+    answer = row['answer']
+    thought = row['thought']
+
+    image_paths = []
+    if images is not None:
+        for n, img_data in enumerate(images):
+            image_path = f"{output_dir}/{id_val}_{n}.jpg"
+            with open(image_path, "wb") as f:
+                f.write(img_data)
+            image_paths.append(image_path)
+    else:
+        image_paths = []
+
+    print(f"id: {id_val}")
+    print(f"images: {image_paths}")
+    print(f"question_type: {question_type}")
+    print(f"question: {question}")
+    print(f"answer: {answer}")
+    print(f"thought: {thought}")
+    print("-" * 50)
 ```
 
 
