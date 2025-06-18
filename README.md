@@ -48,6 +48,8 @@
 
 
 ## 🔔News
+🔥[2025-06-18]: MMSI-Bench has been supported in the [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) repository.
+
 ✨[2025-06-11]: MMSI-Bench was used for evaluation in the experiments of [VILASR](https://arxiv.org/abs/2506.09965).
 
 🔥[2025-06-9]: MMSI-Bench has been supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository.
