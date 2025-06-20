@@ -153,7 +153,52 @@ The `msgs` argument is a list of dictionaries, where each dictionary has two key
 *   `value`:
     *   When `type` is `'text'`, the value is the text message (a single string).
     *   When `type` is `'image'`, the value can be the local path to an image file or a URL pointing to an image.
-    
+
+### Answer Extraction
+
+We use the following post-prompt and extraction logic to extract the model's answer. If the extraction fails, we use the default settings of VLMEvalKit to extract the answer with an LLM.
+```
+post_prompt: "\nAnswer with the option's letter from the given choices directly. Enclose the option's letter within ``."
+```
+```
+def extract_single_choice_with_word_boundary(pred, gt):
+    pattern_1 = r'``([^`]*)``'
+    match = re.search(pattern_1, pred)
+    if match:
+        pred = match.group(1)  
+
+    pattern_2 = r'`([^`]*)`'
+    match = re.search(pattern_2, pred)
+    if match:
+        pred = match.group(1)  
+
+    pattern_add = r'\{([^}]*)\}'
+    match = re.search(pattern_add, pred)
+    if match:
+        pred = match.group(1)  
+
+    pattern_3 = r'\b[A-D]\b(?!\s[a-zA-Z])'
+    match = re.search(pattern_3, pred)
+    if match:
+        pred = match.group()  
+    else:
+        return None 
+
+    answer = gt.lower().replace("\n", " ").strip()
+    predict = pred.lower().replace("\n", " ").strip()
+    try:
+        if answer == predict[0]:
+            return 1.0
+        elif predict[0] == "(" and answer == predict[1]:
+            return 1.0
+        elif predict[0:7] == "option " and answer == predict[7]:
+            return 1.0
+        elif predict[0:14] == "the answer is " and answer == predict[14]:
+            return 1.0
+    except Exception as e:
+        return 0.0
+    return 0.0
+```
 
 ## 🏆 MMSI-Bench Leaderboard
 
