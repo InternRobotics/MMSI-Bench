@@ -76,6 +76,47 @@ MMSI-Bench is structured around three fundamental spatial elements: camera (the 
 
 ![Alt text](assets/example_11.jpg)
 
+
+## 🏆 MMSI-Bench Leaderboard
+
+| Model                        | Avg. (%) | Type         |
+|------------------------------|:--------:|:-------------|
+| 🥇 **Human Level**           | 97.2     | Baseline     |
+| 🥈 o3                        | 41.0     | Proprietary  |
+| 🥉 GPT-4.5                   | 40.3     | Proprietary  |
+| Gemini-2.5-Pro--Thinking     | 37.0     | Proprietary  |
+| Gemini-2.5-Pro               | 36.9     | Proprietary  |
+| Doubao-1.5-pro               | 33.0     | Proprietary  |
+| GPT-4.1                      | 30.9     | Proprietary  |
+| Qwen2.5-VL-72B               | 30.7     | Open-source  |
+| NVILA-15B                    | 30.5     | Open-source  |
+| GPT-4o                       | 30.3     | Proprietary  |
+| Claude-3.7-Sonnet--Thinking  | 30.2     | Proprietary  |
+| Seed1.5-VL                   | 29.7     | Proprietary  |
+| InternVL2.5-2B               | 29.0     | Open-source  |
+| InternVL2.5-8B               | 28.7     | Open-source  |
+| DeepSeek-VL2-Small           | 28.6     | Open-source  |
+| InternVL3-78B                | 28.5     | Open-source  |
+| InternVL2.5-78B              | 28.5     | Open-source  |
+| LLaVA-OneVision-72B          | 28.4     | Open-source  |
+| NVILA-8B                     | 28.1     | Open-source  |
+| InternVL2.5-26B              | 28.0     | Open-source  |
+| DeepSeek-VL2                 | 27.1     | Open-source  |
+| InternVL3-1B                 | 27.0     | Open-source  |
+| InternVL3-9B                 | 26.7     | Open-source  |
+| Qwen2.5-VL-3B                | 26.5     | Open-source  |
+| InternVL2.5-4B               | 26.3     | Open-source  |
+| InternVL2.5-1B               | 26.1     | Open-source  |
+| Qwen2.5-VL-7B                | 25.9     | Open-source  |
+| InternVL3-8B                 | 25.7     | Open-source  |
+| InternVL3-2B                 | 25.3     | Open-source  |
+| Llama-3.2-11B-Vision         | 25.4     | Open-source  |
+| 🃏 **Random Guessing**        | 25.0     | Baseline     |
+| LLaVA-OneVision-7B           | 24.5     | Open-source  |
+| DeepSeek-VL2-Tiny            | 24.0     | Open-source  |
+| Blind GPT-4o                 | 22.7     | Baseline     |
+
+
 ## Load Dataset
 ```
 from datasets import load_dataset
@@ -193,46 +234,6 @@ def extract_single_choice_with_word_boundary(pred, gt):
         return 0.0
     return 0.0
 ```
-
-## 🏆 MMSI-Bench Leaderboard
-
-| Model                        | Avg. (%) | Type         |
-|------------------------------|:--------:|:-------------|
-| 🥇 **Human Level**           | 97.2     | Baseline     |
-| 🥈 o3                        | 41.0     | Proprietary  |
-| 🥉 GPT-4.5                   | 40.3     | Proprietary  |
-| Gemini-2.5-Pro--Thinking     | 37.0     | Proprietary  |
-| Gemini-2.5-Pro               | 36.9     | Proprietary  |
-| Doubao-1.5-pro               | 33.0     | Proprietary  |
-| GPT-4.1                      | 30.9     | Proprietary  |
-| Qwen2.5-VL-72B               | 30.7     | Open-source  |
-| NVILA-15B                    | 30.5     | Open-source  |
-| GPT-4o                       | 30.3     | Proprietary  |
-| Claude-3.7-Sonnet--Thinking  | 30.2     | Proprietary  |
-| Seed1.5-VL                   | 29.7     | Proprietary  |
-| InternVL2.5-2B               | 29.0     | Open-source  |
-| InternVL2.5-8B               | 28.7     | Open-source  |
-| DeepSeek-VL2-Small           | 28.6     | Open-source  |
-| InternVL3-78B                | 28.5     | Open-source  |
-| InternVL2.5-78B              | 28.5     | Open-source  |
-| LLaVA-OneVision-72B          | 28.4     | Open-source  |
-| NVILA-8B                     | 28.1     | Open-source  |
-| InternVL2.5-26B              | 28.0     | Open-source  |
-| DeepSeek-VL2                 | 27.1     | Open-source  |
-| InternVL3-1B                 | 27.0     | Open-source  |
-| InternVL3-9B                 | 26.7     | Open-source  |
-| Qwen2.5-VL-3B                | 26.5     | Open-source  |
-| InternVL2.5-4B               | 26.3     | Open-source  |
-| InternVL2.5-1B               | 26.1     | Open-source  |
-| Qwen2.5-VL-7B                | 25.9     | Open-source  |
-| InternVL3-8B                 | 25.7     | Open-source  |
-| InternVL3-2B                 | 25.3     | Open-source  |
-| Llama-3.2-11B-Vision         | 25.4     | Open-source  |
-| 🃏 **Random Guessing**        | 25.0     | Baseline     |
-| LLaVA-OneVision-7B           | 24.5     | Open-source  |
-| DeepSeek-VL2-Tiny            | 24.0     | Open-source  |
-| Blind GPT-4o                 | 22.7     | Baseline     |
-
 
 ## 🔗 Citation
 
