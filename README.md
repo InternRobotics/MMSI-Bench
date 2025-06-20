@@ -189,12 +189,6 @@ def extract_single_choice_with_word_boundary(pred, gt):
     try:
         if answer == predict[0]:
             return 1.0
-        elif predict[0] == "(" and answer == predict[1]:
-            return 1.0
-        elif predict[0:7] == "option " and answer == predict[7]:
-            return 1.0
-        elif predict[0:14] == "the answer is " and answer == predict[14]:
-            return 1.0
     except Exception as e:
         return 0.0
     return 0.0
