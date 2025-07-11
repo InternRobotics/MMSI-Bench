@@ -54,7 +54,7 @@
 
 ✨[2025-06-11]: MMSI-Bench was used for evaluation in the experiments of [VILASR](https://arxiv.org/abs/2506.09965).
 
-🔥[2025-06-9]: MMSI-Bench has been supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository.
+🔥[2025-06-9]: MMSI-Bench has been supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository. Note: The VLMEvalKit repository uses its default answer extraction method, while this repository uses MMSI-Bench-specific post-prompts and regular expressions for answer extraction.
 
 🔥[2025-05-30]: We released our paper, benchmark, and evaluation codes.
 
