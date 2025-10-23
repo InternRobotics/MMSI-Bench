@@ -48,6 +48,8 @@
 
 
 ## 🔔News
+🔥[2025-10-23]: We added the normalized human response time for each MMSI-Bench sample and its difficulty level to our dataset on Hugging Face.
+
 🔥[2025-06-28]: MMSI-Bench is now officially supported by [OpenCompass Spatial Leaderboard](https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard) as a key benchmark for spatial understanding. It includes a *circular* testing protocol that effectively reduces the impact of random guessing. The best-performing non-thinking model so far, [Seed-VL 1.5](https://www.google.com.hk/search?q=seed-vl-1.5), achieves **20.3%** accuracy.
 
 🔥[2025-06-18]: MMSI-Bench has been supported in the [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) repository.
@@ -143,6 +145,8 @@ for idx, row in df.iterrows():
     question = row['question']
     answer = row['answer']
     thought = row['thought']
+    mean_normed_duration_seconds = row['mean_normed_duration_seconds']
+    difficulty = row['difficulty']
 
     image_paths = []
     if images is not None:
@@ -160,6 +164,8 @@ for idx, row in df.iterrows():
     print(f"question: {question}")
     print(f"answer: {answer}")
     print(f"thought: {thought}")
+    print(f"mean_normed_duration_seconds: {mean_normed_duration_seconds}")
+    print(f"difficulty: {difficulty}")
     print("-" * 50)
 ```
 
