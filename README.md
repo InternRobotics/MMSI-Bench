@@ -48,15 +48,13 @@
 
 
 ## 🔔News
-✨[2025-011-11]: MMSI-Bench was used for evaluation in the experiments of [VST](https://arxiv.org/pdf/2511.05491).
+✨✨✨ MMSI-Bench was used for evaluation in the experiments of [VILASR](https://arxiv.org/abs/2506.09965), [EAS](https://arxiv.org/pdf/2508.13142), [SpaceVista](https://arxiv.org/pdf/2510.09606), [Vlaser](https://arxiv.org/pdf/2510.11027), [MSSR](https://arxiv.org/abs/2510.16688), [3DThinker](https://arxiv.org/pdf/2511.01618), [Actial](https://arxiv.org/pdf/2511.01618), and [VST](https://arxiv.org/pdf/2511.05491).
 
 🔥[2025-10-23]: We added the normalized human response time for each MMSI-Bench sample and its difficulty level to our dataset on Hugging Face.
 
 🔥[2025-06-28]: MMSI-Bench is now officially supported by [OpenCompass Spatial Leaderboard](https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard) as a key benchmark for spatial understanding. It includes a *circular* testing protocol that effectively reduces the impact of random guessing. The best-performing non-thinking model so far, [Seed-VL 1.5](https://www.google.com.hk/search?q=seed-vl-1.5), achieves **20.3%** accuracy.
 
 🔥[2025-06-18]: MMSI-Bench has been supported in the [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) repository.
-
-✨[2025-06-11]: MMSI-Bench was used for evaluation in the experiments of [VILASR](https://arxiv.org/abs/2506.09965).
 
 🔥[2025-06-9]: MMSI-Bench has been supported in the [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) repository. Note: The VLMEvalKit repository uses its default answer extraction method, while this repository uses MMSI-Bench-specific post-prompts and regular expressions for answer extraction.
 
