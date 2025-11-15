@@ -6,7 +6,7 @@
 
 <p align="center">
   <!-- <b>Authors</b><br> -->
-  <a href="https://github.com/sihany077" target="_blank">Sihan Yang<sup>1*</sup></a>,
+  <a href="https://sihany077.github.io/" target="_blank">Sihan Yang<sup>1*</sup></a>,
   <a href="https://runsenxu.com" target="_blank">Runsen Xu<sup>1,2*‡</sup></a>,
   <a href="https://github.com/kuaikuaixym" target="_blank">Yiman Xie<sup>1,3</sup></a>,
   <a href="https://yangsizhe.github.io/" target="_blank">Sizhe Yang<sup>1,2</sup></a>,
