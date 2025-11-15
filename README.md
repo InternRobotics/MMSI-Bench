@@ -86,9 +86,9 @@ MMSI-Bench is structured around three fundamental spatial elements: camera (the 
 | Model                        | Avg. (%) | Type         |
 |------------------------------|:--------:|:-------------|
 | 🥇 **Human Level**           | 97.2     | Baseline     |
-| 🥈 o3                        | 41.0     | Proprietary  |
-| 🥉 GPT-4.5                   | 40.3     | Proprietary  |
-| GPT-5                        | 37.2     | Proprietary  |
+| 🥈 GPT-5                     | 41.9     | Proprietary  |
+| 🥉 o3                        | 41.0     | Proprietary  |
+| GPT-4.5                      | 40.3     | Proprietary  |
 | Gemini-2.5-Pro--Thinking     | 37.0     | Proprietary  |
 | Gemini-2.5-Pro               | 36.9     | Proprietary  |
 | Doubao-1.5-pro               | 33.0     | Proprietary  |
