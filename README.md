@@ -48,7 +48,7 @@
 
 
 ## 🔔News
-✨✨✨ MMSI-Bench was used for evaluation in the experiments of [VILASR](https://arxiv.org/abs/2506.09965), [EASI](https://arxiv.org/pdf/2508.13142), [SpaceVista](https://arxiv.org/pdf/2510.09606), [Vlaser](https://arxiv.org/pdf/2510.11027), [MSSR](https://arxiv.org/abs/2510.16688), [3DThinker](https://arxiv.org/pdf/2511.01618), [Actial](https://arxiv.org/pdf/2511.01618), [VST](https://arxiv.org/pdf/2511.05491), [SenseNova-SI](https://modelscope.cn/models/SenseNova/SenseNova-SI-InternVL3-8B), [GCA](https://arxiv.org/pdf/2511.22659), and [Seed1.8](https://mp.weixin.qq.com/s/N2TkulYSo5SeT9tlu-62jw).
+✨✨✨ MMSI-Bench was used for evaluation in the experiments of [VILASR](https://arxiv.org/abs/2506.09965), [EASI](https://arxiv.org/pdf/2508.13142), [SpaceVista](https://arxiv.org/pdf/2510.09606), [Vlaser](https://arxiv.org/pdf/2510.11027), [MSSR](https://arxiv.org/abs/2510.16688), [3DThinker](https://arxiv.org/pdf/2511.01618), [Actial](https://arxiv.org/pdf/2511.01618), [VST](https://arxiv.org/pdf/2511.05491), [SenseNova-SI](https://modelscope.cn/models/SenseNova/SenseNova-SI-InternVL3-8B), [GCA](https://arxiv.org/pdf/2511.22659), [Seed1.8](https://mp.weixin.qq.com/s/N2TkulYSo5SeT9tlu-62jw), [4D-RGPT](https://arxiv.org/abs/2512.17012).
 
 🔥[2025-12-16]: We released [MMSI-Video-Bench](https://rbler1234.github.io/MMSI-VIdeo-Bench.github.io/), a holistic benchmark for video-based spatial intelligence.
 
