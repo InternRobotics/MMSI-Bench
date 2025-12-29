@@ -50,6 +50,8 @@
 ## 🔔News
 ✨✨✨ MMSI-Bench was used for evaluation in the experiments of [VILASR](https://arxiv.org/abs/2506.09965), [EASI](https://arxiv.org/pdf/2508.13142), [SpaceVista](https://arxiv.org/pdf/2510.09606), [Vlaser](https://arxiv.org/pdf/2510.11027), [MSSR](https://arxiv.org/abs/2510.16688), [3DThinker](https://arxiv.org/pdf/2511.01618), [Actial](https://arxiv.org/pdf/2511.01618), [VST](https://arxiv.org/pdf/2511.05491), [SenseNova-SI](https://modelscope.cn/models/SenseNova/SenseNova-SI-InternVL3-8B), [GCA](https://arxiv.org/pdf/2511.22659), [Seed1.8](https://mp.weixin.qq.com/s/N2TkulYSo5SeT9tlu-62jw), [4D-RGPT](https://arxiv.org/abs/2512.17012).
 
+🔥[2025-12-19]: MMSI-Bench is supported by [EASI](https://github.com/EvolvingLMMs-Lab/EASI?tab=readme-ov-file), a unified evaluation suite for spatial intelligence. For more model results, please refer to the [EASI Leaderboard](https://huggingface.co/spaces/lmms-lab-si/easi-leaderboard).
+
 🔥[2025-12-16]: We released [MMSI-Video-Bench](https://rbler1234.github.io/MMSI-VIdeo-Bench.github.io/), a holistic benchmark for video-based spatial intelligence.
 
 🔥[2025-11-27]: The correspondence between the images in MMSI-Bench and the original dataset can be found in the [file](https://drive.google.com/file/d/1UKmhyMaC2OW94jxHIkSuw4YBofqHYPaA/view?usp=drive_link).
@@ -90,7 +92,7 @@ MMSI-Bench is structured around three fundamental spatial elements: camera (the 
 | Model                        | Avg. (%) | Type         |
 |------------------------------|:--------:|:-------------|
 | 🥇 **Human Level**           | 97.2     | Baseline     |
-| 🥈 Gemini-3-pro              | 48.4     | Proprietary  |
+| 🥈 Gemini-3-pro              | 49.2     | Proprietary  |
 | 🥉 GPT-5                     | 41.9     | Proprietary  |
 | o3                           | 41.0     | Proprietary  |
 | GPT-4.5                      | 40.3     | Proprietary  |
