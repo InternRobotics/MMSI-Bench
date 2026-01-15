@@ -93,13 +93,18 @@ MMSI-Bench is structured around three fundamental spatial elements: camera (the 
 |------------------------------|:--------:|:-------------|
 | 🥇 **Human Level**           | 97.2     | Baseline     |
 | 🥈 Gemini-3-pro              | 49.2     | Proprietary  |
-| 🥉 GPT-5                     | 41.9     | Proprietary  |
+| 🥉 SenseNova-SI-1.2-InternVL3-8B | 42.6 | Open-source  |
+| GPT-5                        | 41.9     | Proprietary  |
 | o3                           | 41.0     | Proprietary  |
 | GPT-4.5                      | 40.3     | Proprietary  |
+| SenseNova-SI-1.1-Qwen3-VL-8B | 38.1     | Open-source  |
 | Gemini-2.5-Pro--Thinking     | 37.0     | Proprietary  |
 | Gemini-2.5-Pro               | 36.9     | Proprietary  |
+| SenseNova-SI-1.1-BAGEL-7B-MoT | 34.5    | Open-source  |
 | Doubao-1.5-pro               | 33.0     | Proprietary  |
+| SenseNova-SI-1.1-Qwen2.5-VL-7B | 32.8   | Open-source  |
 | GPT-4.1                      | 30.9     | Proprietary  |
+| SenseNova-SI-1.1-Qwen2.5-VL-3B | 30.8   | Open-source  |
 | Qwen2.5-VL-72B               | 30.7     | Open-source  |
 | NVILA-15B                    | 30.5     | Open-source  |
 | GPT-4o                       | 30.3     | Proprietary  |
