@@ -263,10 +263,10 @@ def extract_single_choice_with_word_boundary(pred, gt):
 If you find our work and this codebase helpful, please consider starring this repo 🌟 and cite:
 
 ```bibtex
-@article{yang2025mmsi,
+@inproceedings{yang2025mmsi,
   title={MMSI-Bench: A Benchmark for Multi-Image Spatial Intelligence},
   author={Yang, Sihan and Xu, Runsen and Xie, Yiman and Yang, Sizhe and Li, Mo and Lin, Jingli and Zhu, Chenming and Chen, Xiaochen and Duan, Haodong and Yue, Xiangyu and Lin, Dahua and Wang, Tai and Pang, Jiangmiao},
-  journal={arXiv preprint arXiv:2505.23764},
+  booktitle={ICLR},
   year={2025}
 }
 ```
