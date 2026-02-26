@@ -58,7 +58,7 @@
 
 🔥[2025-11-27]: The correspondence between the images in MMSI-Bench and the original dataset can be found in the [file](https://drive.google.com/file/d/1UKmhyMaC2OW94jxHIkSuw4YBofqHYPaA/view?usp=drive_link).
 
-🔥[2025-10-23]: We added the normalized human response time for each MMSI-Bench sample and its difficulty level to our dataset on Hugging Face.
+🔥[2025-10-23]: We added the normalized human response time for each MMSI-Bench sample and its difficulty level to our dataset on Hugging Face. To keep the task categories balanced across difficulty levels, we performed stratified sampling by difficulty within each task category.
 
 🔥[2025-06-28]: MMSI-Bench is now officially supported by [OpenCompass Spatial Leaderboard](https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard) as a key benchmark for spatial understanding. It includes a *circular* testing protocol that effectively reduces the impact of random guessing. The best-performing non-thinking model so far, [Seed-VL 1.5](https://www.google.com.hk/search?q=seed-vl-1.5), achieves **20.3%** accuracy.
 
