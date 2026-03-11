@@ -272,7 +272,7 @@ If you find our work and this codebase helpful, please consider starring this re
 ```
 ## 📄 License
 
-Shield: [![CC BY 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)][cc-by]
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
